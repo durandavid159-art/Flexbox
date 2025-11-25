@@ -1,0 +1,37 @@
+
+*{   
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;    
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #90979f;
+    gap: 40px;
+
+}
+
+.idioma{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #edf5ff;
+}
+
+#en{
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+#eus{
+    background-color: darkgrey;
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+*{   
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;    
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    height: 100vh;             
+    background: #cbc8c3;       
+}
+
+.caja {
+    background: #e5e1de;
+    padding: 25px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
