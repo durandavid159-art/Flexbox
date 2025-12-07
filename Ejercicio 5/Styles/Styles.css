@@ -1,0 +1,33 @@
+*{   
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;    
+}
+header, footer{
+    display: flex;
+    justify-content: center;
+    background: #F1F1F1;
+    width: 100vw;
+    height: 13vh;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navegacion {
+    width: 690px;
+    background: #AAAAAA;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.article{
+    width: 333px;
+    background:  #BBBBBB;
+    padding: 12px;
+    margin: 0px;
+}

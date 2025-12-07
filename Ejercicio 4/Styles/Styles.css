@@ -1,0 +1,14 @@
+
+.imagenes{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.imagenes img {
+    width: 430px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}

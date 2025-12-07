@@ -1,0 +1,28 @@
+*{   
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;    
+}
+
+.menu {
+    list-style: none;
+    width: 450px;
+}
+
+.menu li {
+    background: #dcdcdc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    background: white;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+

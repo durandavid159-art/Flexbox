@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2px;         
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #93d9e9;
+    gap: 12px;
+    height: 100vh;
+}
+
+.diaUno, .pass, .passDos {
+    background: white;
+    width: 298px;
+    height: 480px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px  #a59797;   
+    display: flex;
+    flex-direction: column; 
+    text-align: center;  
+}
+
+h1{
+    background: salmon;
+    margin: -3px -2px 0px -3px;
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;
+    padding: 20px;
+}
+
+button{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around; 
+    width: 118px;
+    height: 38px;
+    border-radius: 6px;
+    border: none;      
+}
+
+.parrafo{
+    width: 289px;
+    height: 334px;
+    font-size: 16px;  
+    margin-top: 16px;
+    line-height: 2;
+    font-family: arial;
+}
